@@ -184,7 +184,7 @@ window.ProdePredictions = (function () {
 
     // Add a quick random generator button for testing/wow effect
     html = `
-      <div style="display: flex; justify-content: flex-end; margin-bottom: 20px;">
+      <div style="display: none;">
         <button type="button" class="btn-secondary" id="btn-auto-fill" style="padding: 10px 20px; font-size: 0.8rem; border-color: var(--border-gold);">
           🎲 COMPLETAR AL AZAR (PRUEBAS)
         </button>
