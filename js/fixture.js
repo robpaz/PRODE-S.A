@@ -7,65 +7,65 @@
 
 const EQUIPOS = {
   // GRUPO A
-  MEX: { nombre: 'México',         bandera: 'mx' },
-  RSA: { nombre: 'Sudáfrica',      bandera: 'za' },
-  KOR: { nombre: 'Corea del Sur',  bandera: 'kr' },
-  CZE: { nombre: 'Rep. Checa',     bandera: 'cz' },
+  MEX: { nombre: 'México', bandera: 'mx' },
+  RSA: { nombre: 'Sudáfrica', bandera: 'za' },
+  KOR: { nombre: 'Corea del Sur', bandera: 'kr' },
+  CZE: { nombre: 'Rep. Checa', bandera: 'cz' },
   // GRUPO B
-  CAN: { nombre: 'Canadá',         bandera: 'ca' },
+  CAN: { nombre: 'Canadá', bandera: 'ca' },
   BIH: { nombre: 'Bosnia y Herz.', bandera: 'ba' },
-  QAT: { nombre: 'Qatar',          bandera: 'qa' },
-  SUI: { nombre: 'Suiza',          bandera: 'ch' },
+  QAT: { nombre: 'Qatar', bandera: 'qa' },
+  SUI: { nombre: 'Suiza', bandera: 'ch' },
   // GRUPO C
-  BRA: { nombre: 'Brasil',         bandera: 'br' },
-  MAR: { nombre: 'Marruecos',      bandera: 'ma' },
-  SCO: { nombre: 'Escocia',        bandera: 'gb-sct' },
-  HAI: { nombre: 'Haití',          bandera: 'ht' },
+  BRA: { nombre: 'Brasil', bandera: 'br' },
+  MAR: { nombre: 'Marruecos', bandera: 'ma' },
+  SCO: { nombre: 'Escocia', bandera: 'gb-sct' },
+  HAI: { nombre: 'Haití', bandera: 'ht' },
   // GRUPO D
-  USA: { nombre: 'EE.UU.',         bandera: 'us' },
-  PAR: { nombre: 'Paraguay',       bandera: 'py' },
-  AUS: { nombre: 'Australia',      bandera: 'au' },
-  TUR: { nombre: 'Turquía',        bandera: 'tr' },
+  USA: { nombre: 'EE.UU.', bandera: 'us' },
+  PAR: { nombre: 'Paraguay', bandera: 'py' },
+  AUS: { nombre: 'Australia', bandera: 'au' },
+  TUR: { nombre: 'Turquía', bandera: 'tr' },
   // GRUPO E
-  ALE: { nombre: 'Alemania',       bandera: 'de' },
-  CDM: { nombre: 'Costa de Marfil',bandera: 'ci' },
-  ECU: { nombre: 'Ecuador',        bandera: 'ec' },
-  CUR: { nombre: 'Curazao',        bandera: 'cw' },
+  ALE: { nombre: 'Alemania', bandera: 'de' },
+  CDM: { nombre: 'Costa de Marfil', bandera: 'ci' },
+  ECU: { nombre: 'Ecuador', bandera: 'ec' },
+  CUR: { nombre: 'Curazao', bandera: 'cw' },
   // GRUPO F
-  PBA: { nombre: 'Países Bajos',   bandera: 'nl' },
-  JAP: { nombre: 'Japón',          bandera: 'jp' },
-  SUE: { nombre: 'Suecia',         bandera: 'se' },
-  TUN: { nombre: 'Túnez',          bandera: 'tn' },
+  PBA: { nombre: 'Países Bajos', bandera: 'nl' },
+  JAP: { nombre: 'Japón', bandera: 'jp' },
+  SUE: { nombre: 'Suecia', bandera: 'se' },
+  TUN: { nombre: 'Túnez', bandera: 'tn' },
   // GRUPO G
-  BEL: { nombre: 'Bélgica',        bandera: 'be' },
-  IRA: { nombre: 'Irán',           bandera: 'ir' },
-  NZL: { nombre: 'Nueva Zelanda',  bandera: 'nz' },
-  EGY: { nombre: 'Egipto',         bandera: 'eg' },
+  BEL: { nombre: 'Bélgica', bandera: 'be' },
+  IRA: { nombre: 'Irán', bandera: 'ir' },
+  NZL: { nombre: 'Nueva Zelanda', bandera: 'nz' },
+  EGY: { nombre: 'Egipto', bandera: 'eg' },
   // GRUPO H
-  ESP: { nombre: 'España',         bandera: 'es' },
-  CAB: { nombre: 'Cabo Verde',     bandera: 'cv' },
-  URU: { nombre: 'Uruguay',        bandera: 'uy' },
-  ARA: { nombre: 'Arabia Saudí',   bandera: 'sa' },
+  ESP: { nombre: 'España', bandera: 'es' },
+  CAB: { nombre: 'Cabo Verde', bandera: 'cv' },
+  URU: { nombre: 'Uruguay', bandera: 'uy' },
+  ARA: { nombre: 'Arabia Saudí', bandera: 'sa' },
   // GRUPO I
-  FRA: { nombre: 'Francia',        bandera: 'fr' },
-  SEN: { nombre: 'Senegal',        bandera: 'sn' },
-  NOR: { nombre: 'Noruega',        bandera: 'no' },
-  IRK: { nombre: 'Irak',           bandera: 'iq' },
+  FRA: { nombre: 'Francia', bandera: 'fr' },
+  SEN: { nombre: 'Senegal', bandera: 'sn' },
+  NOR: { nombre: 'Noruega', bandera: 'no' },
+  IRK: { nombre: 'Irak', bandera: 'iq' },
   // GRUPO J
-  ARG: { nombre: 'Argentina',      bandera: 'ar' },
-  ALG: { nombre: 'Argelia',        bandera: 'dz' },
-  AUT: { nombre: 'Austria',        bandera: 'at' },
-  JOR: { nombre: 'Jordania',       bandera: 'jo' },
+  ARG: { nombre: 'Argentina', bandera: 'ar' },
+  ALG: { nombre: 'Argelia', bandera: 'dz' },
+  AUT: { nombre: 'Austria', bandera: 'at' },
+  JOR: { nombre: 'Jordania', bandera: 'jo' },
   // GRUPO K
-  POR: { nombre: 'Portugal',       bandera: 'pt' },
-  COL: { nombre: 'Colombia',       bandera: 'co' },
-  UZB: { nombre: 'Uzbekistán',     bandera: 'uz' },
-  RDC: { nombre: 'R.D. Congo',     bandera: 'cd' },
+  POR: { nombre: 'Portugal', bandera: 'pt' },
+  COL: { nombre: 'Colombia', bandera: 'co' },
+  UZB: { nombre: 'Uzbekistán', bandera: 'uz' },
+  RDC: { nombre: 'R.D. Congo', bandera: 'cd' },
   // GRUPO L
-  ING: { nombre: 'Inglaterra',     bandera: 'gb-eng' },
-  CRO: { nombre: 'Croacia',        bandera: 'hr' },
-  GHA: { nombre: 'Ghana',          bandera: 'gh' },
-  PAN: { nombre: 'Panamá',         bandera: 'pa' },
+  ING: { nombre: 'Inglaterra', bandera: 'gb-eng' },
+  CRO: { nombre: 'Croacia', bandera: 'hr' },
+  GHA: { nombre: 'Ghana', bandera: 'gh' },
+  PAN: { nombre: 'Panamá', bandera: 'pa' },
 };
 
 function flagUrl(code) {
@@ -145,14 +145,16 @@ const FIXTURE_GRUPOS = [
     soloDesdeJornada2: false,
     partidos: [
       // Jornada 1
-      { id: 'E1', jornada: 1, local: 'ALE', visitante: 'CDM', fecha: 'Dom 14 Jun' },
-      { id: 'E2', jornada: 1, local: 'ECU', visitante: 'CUR', fecha: 'Dom 14 Jun' },
+      { id: 'E1', jornada: 1, local: 'ALE', visitante: 'CUR', fecha: 'Dom 14 Jun' },
+      { id: 'E2', jornada: 1, local: 'CDM', visitante: 'ECU', fecha: 'Dom 14 Jun' },
+
       // Jornada 2
-      { id: 'E3', jornada: 2, local: 'ALE', visitante: 'ECU', fecha: 'Sáb 20 Jun' },
-      { id: 'E4', jornada: 2, local: 'CDM', visitante: 'CUR', fecha: 'Sáb 20 Jun' },
+      { id: 'E3', jornada: 2, local: 'ALE', visitante: 'CDM', fecha: 'Sáb 20 Jun' },
+      { id: 'E4', jornada: 2, local: 'ECU', visitante: 'CUR', fecha: 'Sáb 20 Jun' },
+
       // Jornada 3
-      { id: 'E5', jornada: 3, local: 'ALE', visitante: 'CUR', fecha: 'Jue 25 Jun' },
-      { id: 'E6', jornada: 3, local: 'CDM', visitante: 'ECU', fecha: 'Jue 25 Jun' },
+      { id: 'E5', jornada: 3, local: 'ALE', visitante: 'ECU', fecha: 'Jue 25 Jun' },
+      { id: 'E6', jornada: 3, local: 'CUR', visitante: 'CDM', fecha: 'Jue 25 Jun' },
     ]
   },
   {
@@ -164,12 +166,14 @@ const FIXTURE_GRUPOS = [
       // Jornada 1
       { id: 'F1', jornada: 1, local: 'PBA', visitante: 'JAP', fecha: 'Dom 14 Jun' },
       { id: 'F2', jornada: 1, local: 'SUE', visitante: 'TUN', fecha: 'Dom 14 Jun' },
+
       // Jornada 2
       { id: 'F3', jornada: 2, local: 'PBA', visitante: 'SUE', fecha: 'Sáb 20 Jun' },
-      { id: 'F4', jornada: 2, local: 'JAP', visitante: 'TUN', fecha: 'Sáb 20 Jun' },
+      { id: 'F4', jornada: 2, local: 'TUN', visitante: 'JAP', fecha: 'Sáb 20 Jun' },
+
       // Jornada 3
-      { id: 'F5', jornada: 3, local: 'PBA', visitante: 'TUN', fecha: 'Vie 26 Jun' },
-      { id: 'F6', jornada: 3, local: 'JAP', visitante: 'SUE', fecha: 'Vie 26 Jun' },
+      { id: 'F5', jornada: 3, local: 'JAP', visitante: 'SUE', fecha: 'Vie 26 Jun' },
+      { id: 'F6', jornada: 3, local: 'TUN', visitante: 'PBA', fecha: 'Vie 26 Jun' },
     ]
   },
   {
@@ -179,14 +183,16 @@ const FIXTURE_GRUPOS = [
     soloDesdeJornada2: false,
     partidos: [
       // Jornada 1
-      { id: 'G1', jornada: 1, local: 'BEL', visitante: 'IRA', fecha: 'Lun 15 Jun' },
-      { id: 'G2', jornada: 1, local: 'NZL', visitante: 'EGY', fecha: 'Lun 15 Jun' },
+      { id: 'G1', jornada: 1, local: 'BEL', visitante: 'EGY', fecha: 'Lun 15 Jun' },
+      { id: 'G2', jornada: 1, local: 'IRA', visitante: 'NZL', fecha: 'Lun 15 Jun' },
+
       // Jornada 2
-      { id: 'G3', jornada: 2, local: 'BEL', visitante: 'NZL', fecha: 'Dom 21 Jun' },
-      { id: 'G4', jornada: 2, local: 'IRA', visitante: 'EGY', fecha: 'Dom 21 Jun' },
+      { id: 'G3', jornada: 2, local: 'BEL', visitante: 'IRA', fecha: 'Dom 21 Jun' },
+      { id: 'G4', jornada: 2, local: 'NZL', visitante: 'EGY', fecha: 'Dom 21 Jun' },
+
       // Jornada 3
-      { id: 'G5', jornada: 3, local: 'BEL', visitante: 'EGY', fecha: 'Vie 26 Jun' },
-      { id: 'G6', jornada: 3, local: 'IRA', visitante: 'NZL', fecha: 'Vie 26 Jun' },
+      { id: 'G5', jornada: 3, local: 'EGY', visitante: 'IRA', fecha: 'Vie 26 Jun' },
+      { id: 'G6', jornada: 3, local: 'NZL', visitante: 'BEL', fecha: 'Vie 26 Jun' },
     ]
   },
   {
@@ -195,15 +201,14 @@ const FIXTURE_GRUPOS = [
     equipos: ['ESP', 'CAB', 'URU', 'ARA'],
     soloDesdeJornada2: false,
     partidos: [
-      // Jornada 1
       { id: 'H1', jornada: 1, local: 'ESP', visitante: 'CAB', fecha: 'Lun 15 Jun' },
-      { id: 'H2', jornada: 1, local: 'URU', visitante: 'ARA', fecha: 'Lun 15 Jun' },
-      // Jornada 2
-      { id: 'H3', jornada: 2, local: 'ESP', visitante: 'URU', fecha: 'Dom 21 Jun' },
-      { id: 'H4', jornada: 2, local: 'CAB', visitante: 'ARA', fecha: 'Dom 21 Jun' },
-      // Jornada 3
-      { id: 'H5', jornada: 3, local: 'ESP', visitante: 'ARA', fecha: 'Vie 26 Jun' },
-      { id: 'H6', jornada: 3, local: 'CAB', visitante: 'URU', fecha: 'Vie 26 Jun' },
+      { id: 'H2', jornada: 1, local: 'ARA', visitante: 'URU', fecha: 'Lun 15 Jun' },
+
+      { id: 'H3', jornada: 2, local: 'URU', visitante: 'CAB', fecha: 'Dom 21 Jun' },
+      { id: 'H4', jornada: 2, local: 'ESP', visitante: 'ARA', fecha: 'Dom 21 Jun' },
+
+      { id: 'H5', jornada: 3, local: 'URU', visitante: 'ESP', fecha: 'Vie 26 Jun' },
+      { id: 'H6', jornada: 3, local: 'CAB', visitante: 'ARA', fecha: 'Vie 26 Jun' },
     ]
   },
   {
@@ -214,13 +219,15 @@ const FIXTURE_GRUPOS = [
     partidos: [
       // Jornada 1
       { id: 'I1', jornada: 1, local: 'FRA', visitante: 'SEN', fecha: 'Mar 16 Jun' },
-      { id: 'I2', jornada: 1, local: 'NOR', visitante: 'IRK', fecha: 'Mar 16 Jun' },
+      { id: 'I2', jornada: 1, local: 'IRK', visitante: 'NOR', fecha: 'Mar 16 Jun' },
+
       // Jornada 2
-      { id: 'I3', jornada: 2, local: 'FRA', visitante: 'NOR', fecha: 'Lun 22 Jun' },
-      { id: 'I4', jornada: 2, local: 'SEN', visitante: 'IRK', fecha: 'Lun 22 Jun' },
+      { id: 'I3', jornada: 2, local: 'FRA', visitante: 'IRK', fecha: 'Lun 22 Jun' },
+      { id: 'I4', jornada: 2, local: 'NOR', visitante: 'SEN', fecha: 'Lun 22 Jun' },
+
       // Jornada 3
-      { id: 'I5', jornada: 3, local: 'FRA', visitante: 'IRK', fecha: 'Vie 26 Jun' },
-      { id: 'I6', jornada: 3, local: 'SEN', visitante: 'NOR', fecha: 'Vie 26 Jun' },
+      { id: 'I5', jornada: 3, local: 'NOR', visitante: 'FRA', fecha: 'Vie 26 Jun' },
+      { id: 'I6', jornada: 3, local: 'SEN', visitante: 'IRK', fecha: 'Vie 26 Jun' },
     ]
   },
   {
@@ -247,14 +254,16 @@ const FIXTURE_GRUPOS = [
     soloDesdeJornada2: false,
     partidos: [
       // Jornada 1
-      { id: 'K1', jornada: 1, local: 'POR', visitante: 'COL', fecha: 'Mié 17 Jun' },
-      { id: 'K2', jornada: 1, local: 'UZB', visitante: 'RDC', fecha: 'Mié 17 Jun' },
+      { id: 'K1', jornada: 1, local: 'POR', visitante: 'RDC', fecha: 'Mié 17 Jun' },
+      { id: 'K2', jornada: 1, local: 'UZB', visitante: 'COL', fecha: 'Mié 17 Jun' },
+
       // Jornada 2
       { id: 'K3', jornada: 2, local: 'POR', visitante: 'UZB', fecha: 'Mar 23 Jun' },
       { id: 'K4', jornada: 2, local: 'COL', visitante: 'RDC', fecha: 'Mar 23 Jun' },
+
       // Jornada 3
-      { id: 'K5', jornada: 3, local: 'POR', visitante: 'RDC', fecha: 'Sáb 27 Jun' },
-      { id: 'K6', jornada: 3, local: 'COL', visitante: 'UZB', fecha: 'Sáb 27 Jun' },
+      { id: 'K5', jornada: 3, local: 'COL', visitante: 'POR', fecha: 'Sáb 27 Jun' },
+      { id: 'K6', jornada: 3, local: 'RDC', visitante: 'UZB', fecha: 'Sáb 27 Jun' },
     ]
   },
   {
@@ -266,11 +275,13 @@ const FIXTURE_GRUPOS = [
       // Jornada 1
       { id: 'L1', jornada: 1, local: 'ING', visitante: 'CRO', fecha: 'Mié 17 Jun' },
       { id: 'L2', jornada: 1, local: 'GHA', visitante: 'PAN', fecha: 'Mié 17 Jun' },
+
       // Jornada 2
       { id: 'L3', jornada: 2, local: 'ING', visitante: 'GHA', fecha: 'Mar 23 Jun' },
-      { id: 'L4', jornada: 2, local: 'CRO', visitante: 'PAN', fecha: 'Mar 23 Jun' },
+      { id: 'L4', jornada: 2, local: 'PAN', visitante: 'CRO', fecha: 'Mar 23 Jun' },
+
       // Jornada 3
-      { id: 'L5', jornada: 3, local: 'ING', visitante: 'PAN', fecha: 'Sáb 27 Jun' },
+      { id: 'L5', jornada: 3, local: 'PAN', visitante: 'ING', fecha: 'Sáb 27 Jun' },
       { id: 'L6', jornada: 3, local: 'CRO', visitante: 'GHA', fecha: 'Sáb 27 Jun' },
     ]
   },
